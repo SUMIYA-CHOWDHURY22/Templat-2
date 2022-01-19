@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* nevber */
+ #Top-side{
+    position: fixed;
+    width: 100%;
+    background-color: aliceblue;
+ } 
+
+.content ul{
+     list-style-type: none;
+     overflow: hidden;
+     color: #000;
+     margin: 0;
+     padding: 0;
+}
+.content li:first-child{
+    float:left;
+}
+
+ .content li {
+    float: right;
+}
+
+ .content ul li a{
+    
+    margin: 20px;
+    padding: 12px 20px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.content li a:hover {
+    color: #000;
+    background-color: rgb(168, 150, 150);
+  }
+#Navber-2{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(99, 110, 87);
+}
+   /* image-part */
+.img{
+      background-image: url('images/hamburger.jpg');
+      background-size: cover;
+      height: 600px;
+      color: crimson;
+      background-position: center center;
+      display: flex;
+      align-items: center;
+      padding-left:40px;
+   }
+   .img h2{
+       padding-top: 400px;
+       letter-spacing: 4px;
+       font-size: 85px;
+   }
+  /* ......2nd part */
+#second-tab{
+    display: flex;
+    margin: 70px;
+   
+}
+.second-imag{
+    
+}
+
+.p h2 {
+    padding: 50px 40px;
+    line-height: 4px;
+    letter-spacing: 5px;
+    font-size: 36px;
+    font-weight: 300;
+}
+.p h4 {
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 12px;
+    padding: 20px 18px;
+}
+.p1{
+    padding-bottom: 20px;
+    font-size: 18px;
+    
+}
+
+.p {
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.p2 {
+    margin: 10px;
+    padding-top: 51px;
+    overflow: hidden;
+    opacity: 0.7;
+    line-height: 30px;
+}
+/* 3rd part */
+#Menu{
+      display: flex;
+      margin: 70px;
+}
+.menu-diteles{
+    
+padding: 30px 25px 30px 0px;
+
+   
+}
+.menu-diteles h2{
+     text-align: center;
+     font-size: 60px;
+}
+.menu-diteles h3{
+    padding: 30px 0px;
+    letter-spacing: 4px;
+}
+.menu-diteles p {
+  opacity: 0.70;
+}
+.menu-img{
+    padding-left: 120px;
+    padding-right: 80px;
+}
+
+.padding{
+    padding-left: 10px;
+}
+/* 4th part */
+#Contact{
+    margin: 30px;
+    padding: 10px 10px;
+}
+#Contact h2{
+  letter-spacing: 5px;
+  font-weight: 400;
+  margin: 20px 0px;
+ 
+}
+#Contact p{
+    font-size: 15px;
+    line-height: 2.5;
+}
+#Contact p b {
+   
+color: #497c78;
+  font-size: 18px;
+} 
+
+.part{
+   border: 0 0 0  1px solid #ccc;;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  margin:10px;
+ padding-top: 16px;
+ padding-bottom: 16px;
+}
+.input {
+    padding: 8px;
+    display: block;
+    width: 100% ;
+}
+form{
+ 
+}
+ button {
+   color: #000;
+   background-color: #e2dcdc;
+   margin-top: 16px;
+   margin-bottom: 16px;
+   padding: 8px 16px;
+   overflow: hidden;
+   display: inline;
+   text-decoration: none;
+   text-align: center;
+   cursor: pointer;
+  border: none;
+  font-size: 20px;
+}
+ /* footer-part css */
+ footer{
+     color: #000;
+     background-color: #f1f1f1;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+    display: block;
+    
+ }
